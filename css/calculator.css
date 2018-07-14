@@ -1,0 +1,125 @@
+@font-face {
+	font-family: "Roboto-Bold";
+	src: url("../../../../fonts/Roboto-Bold.ttf") format("truetype");
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Digit";
+	src: url("../../../../fonts/Digit.ttf") format("truetype");
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #5a5d70;
+	font-size :10px;
+}
+
+.btn-area {
+	margin-top: 2em;
+	margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+}
+
+
+.inpts {
+	width: 9em;
+	height: 160px;
+	margin-left: auto;
+    margin-right: auto;
+	background-color: #7aab8b;
+	text-align: right;
+	border-radius: 5px;
+	font-family: "Digit";
+    font-size: 30px;
+}
+
+.inpt-number {
+	margin-top: 3.4%;
+	margin-right: 8%;
+    display: inline-block;
+    font-size:36px;
+    width: 90%;
+}
+
+
+.line {
+	margin-top: -8%;
+	margin-right: 4%;
+	display: block;
+}
+
+.btn {
+	background-color: #8b8d9c;
+	color: #efefef;
+    padding: 7% 8%;
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: -2%;
+    font-family: "Roboto-Bold";
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.btn:hover {
+	background-color: #43c696;
+	cursor: pointer;
+}
+
+.btn-symb {
+	background-color: #2a2a2f;
+}
+
+.btn-rmv {
+	background-color: #c33643;
+	padding: 6%;
+}
+
+.btn-rmv:hover {
+	background-color: #9b1307;
+}
+
+.material-icons {
+	font-size: 1.1em;
+}
+
+.btn-zero {
+	width: 30%;
+	text-align: center;
+}
+
+.btn-equal {
+	padding-top: 3em;
+	padding-bottom: 2.5em;
+	margin-right:3%;
+	float: right;
+}
+
+@media screen and (max-width:767px){
+	.content {
+		margin-top: 4%;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+	.content {
+		margin-top: 3%;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	.content {
+		margin-top: 5%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.content {
+		margin-top: 8%;
+	}
+}
